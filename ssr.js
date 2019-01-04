@@ -27,7 +27,7 @@ async function ssr(url) {
   try {
     debug(`Opening ${url} in browser.`);
     const page = await currentBrowser.newPage();
-    await page.goto(url, {waitUntil: 'networkidle2'});
+    await page.goto(url, {waitUntil: 'networkidle0'});
     const content = await page.content();
     page.close();
     return content;
