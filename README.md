@@ -11,7 +11,7 @@ This software works by using [Puppeteer](https://github.com/GoogleChrome/puppete
 
 ## How to run it?
 Easiest is to run the Docker image (it's rather large, ~1GB, because of the many dependencies of Chrome): [eyra/puppeteer-ssr](https://cloud.docker.com/u/eyra/repository/docker/eyra/puppeteer-ssr).
-- E.g. `docker run -it -p 8001:8001 -e PSSR_PROXY_URL=https://single-spa.surge.sh -e PSSR_LOG_DEBUG=true eyra/puppeteer-ssr`.
+- `docker run -it -p 8001:8001 -e PSSR_PROXY_URL=https://single-spa.surge.sh -e PSSR_LOG_DEBUG=true eyra/puppeteer-ssr`
 
 ## Configuration
 Configuration is done through the environment:
