@@ -1,0 +1,33 @@
+{
+  "name": "puppeteer-ssr",
+  "version": "0.0.1",
+  "description": "Docker Puppeteer SSR (Server Side Rendering)",
+  "main": "ssr.js",
+  "scripts": {
+    "start": "node ssr.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EYRA-Benchmark/puppeteer-ssr.git"
+  },
+  "keywords": [
+    "docker",
+    "puppeteer",
+    "ssr",
+    "server",
+    "side",
+    "rendering"
+  ],
+  "author": "Tom Klaver",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/EYRA-Benchmark/puppeteer-ssr/issues"
+  },
+  "homepage": "https://github.com/EYRA-Benchmark/puppeteer-ssr#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "puppeteer": "^1.11.0",
+    "request": "^2.88.0"
+  }
+}
