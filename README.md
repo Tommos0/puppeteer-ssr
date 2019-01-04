@@ -2,7 +2,7 @@
 Docker Puppeteer SSR (Server Side Rendering)
 
 ## What is this?
-This software acts as a reverse proxy to a SPA (Single Page Application) so that it can be rendered server side. Why? Google and other indexing services cannot usually index SPA application since they are rendered on the client side (in the browser). Pre-rendering might also increase page load times.
+This software acts as a reverse proxy to a SPA (Single Page Application) so that it can be rendered server side. Why? Google and other indexing services cannot usually index SPA applications since they are rendered on the client side (in the browser). Pre-rendering might also improve page load times.
 This software can run as a proxy in front of your SPA and pre-render certain or all HTML pages so that the client (and thus also bots like Google's crawler), get served a full HTML page.
 
 ## How does it work?
